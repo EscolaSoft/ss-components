@@ -1,7 +1,8 @@
 /** 
  * Straight forward JavaScript Components. Designed to work with SilverStripe but can be used anywhere 
  * 
- * @example
+ * Example
+ * ```
  * import Components from "ss-components";
  * 
  * // standard components
@@ -25,6 +26,7 @@
  * //<div id="diagram1" data-component="BarDiagram" data-json="1.json">...</div>
  * //<nav id="sidemenu" data-component="side-menu">...</nav>
  * //<nav id="tooltip"  data-component="tooltip">...</nav>
+ * ```
  */
 class Components {
 
