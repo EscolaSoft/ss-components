@@ -63,4 +63,6 @@ this would be called for HTML nodes
 <nav id="sidemenu" data-component="side-menu">...</nav>
 ```
 
-[Documentation](docs/Components)
+## API Documentation
+
+[Documentation](docs/Components.md)
