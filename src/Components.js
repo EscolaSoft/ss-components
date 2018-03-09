@@ -21,6 +21,7 @@
  * 
  * //attaching all components
  * Components.attach();
+ * ```
  * 
  * along with HTML code 
  * 
