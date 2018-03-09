@@ -4,7 +4,8 @@
   "description": "Straight forward JavaScript components. Designed to work with SilverStripe but can be used anywhere",
   "main": "src/components.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "doc":"jsdoc2md src/components.js > docs/components.md"
   },
   "repository": {
     "type": "git",

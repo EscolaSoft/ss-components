@@ -1,5 +1,30 @@
 /** 
  * Straight forward JavaScript Components. Designed to work with SilverStripe but can be used anywhere 
+ * 
+ * @example
+ * import Components from "ss-components";
+ * 
+ * // standard components
+ * import SideMenu from "./js/components/SideMenu.js";
+ * import Title from "./js/components/Title.js";
+ * 
+ * // diagram components types 
+ * import BarDiagram from './js/components/BarDiagram.js';
+ * 
+ * // register components
+ * Components.register('side-menu', SideMenu);
+ * Components.register('tooltip', Tooltip);
+ * 
+ * // register diagrams
+ * Components.register('BarDiagram', BarDiagram);
+ * 
+ * //attaching all components
+ * Components.attach();
+ * 
+ * // HTML code below
+ * //<div id="diagram1" data-component="BarDiagram" data-json="1.json">...</div>
+ * //<nav id="sidemenu" data-component="side-menu">...</nav>
+ * //<nav id="tooltip"  data-component="tooltip">...</nav>
  */
 class Components {
 
