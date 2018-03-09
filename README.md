@@ -42,4 +42,4 @@ this would be called for HTML nodes
 
 ## Website 
 
-[githubpages](https://qunabucom.github.io/ss-components/)
+[SS Components github pages](https://qunabucom.github.io/ss-components/)
