@@ -62,3 +62,5 @@ this would be called for HTML nodes
 <div data-component="BarDiagram" data-json="1.json">...</div>
 <nav id="sidemenu" data-component="side-menu">...</nav>
 ```
+
+[Documentation](docs/Components)
