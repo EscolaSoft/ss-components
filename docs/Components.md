@@ -24,10 +24,12 @@ Components.register('BarDiagram', BarDiagram);
 //attaching all components
 Components.attach();
 
-// HTML code below
-//<div id="diagram1" data-component="BarDiagram" data-json="1.json">...</div>
-//<nav id="sidemenu" data-component="side-menu">...</nav>
-//<nav id="tooltip"  data-component="tooltip">...</nav>
+along with HTML code 
+
+```html
+<div id="diagram1" data-component="BarDiagram" data-json="1.json">...</div>
+<nav id="sidemenu" data-component="side-menu">...</nav>
+<nav id="tooltip"  data-component="tooltip">...</nav>
 ```
 
 **Kind**: global class  
