@@ -1,0 +1,23 @@
+{
+  "name": "ss-components",
+  "version": "0.0.9",
+  "description": "Straight forward JavaScript components. Designed to work with SilverStripe but can be used anywhere",
+  "main": "src/Components.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qunabucom/ss-components.git"
+  },
+  "keywords": [
+    "silverstripe",
+    "components"
+  ],
+  "author": "Mateusz Wojczal Qunabu Interactive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qunabucom/ss-components/issues"
+  },
+  "homepage": "https://github.com/qunabucom/ss-components#readme"
+}
