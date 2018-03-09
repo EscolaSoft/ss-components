@@ -4,7 +4,7 @@
 Straight forward JavaScript Components. Designed to work with SilverStripe but can be used anywhere 
 
 Example
-```
+```javascript
 import Components from "ss-components";
 
 // standard components
