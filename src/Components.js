@@ -237,6 +237,33 @@ class Components {
         }
     }
 
+    
+    /**
+     * Performs a test `window.document.contains(component.el)` and removes all references to 
+     * components, so it would garbage collectored. 
+     * If component has method `destory`, it will be called 
+     */
+    dettachFromDOM() {
+        this._components = this._components.filter((component)=>{
+
+            let test = window.document.contains(component.el);
+
+            if (!test) {
+                if (component.hasOwnProperty('destroy') && typeof test.destroy == 'function') {
+                    test.destroy();
+                }
+                if (component.id) {
+                    this._componentsIds[id] = null;
+                    delete this._componentsIds[id];
+                }
+            }
+
+            return test;
+            
+        });
+        
+    }
+
 }
 
 Components._components = [];
