@@ -243,7 +243,7 @@ class Components {
      * components, so it would garbage collectored. 
      * If component has method `destory`, it will be called 
      */
-    dettachFromDOM() {
+    static dettachFromDOM() {
         this._components = this._components.filter((component)=>{
 
             let test = window.document.contains(component.el);
