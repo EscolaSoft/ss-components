@@ -249,7 +249,7 @@ class Components {
             let test = window.document.contains(component.el);
 
             if (!test) {
-                if (component.hasOwnProperty('destroy') && typeof test.destroy == 'function') {
+                if (component.hasOwnProperty('destroy') && typeof component.destroy === 'function') {
                     test.destroy();
                 }
                 if (component.id) {
