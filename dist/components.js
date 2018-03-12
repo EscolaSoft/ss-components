@@ -272,8 +272,8 @@ var Components = function () {
                 var test = window.document.contains(component.el);
 
                 if (!test) {
-                    if (component.hasOwnProperty('destroy') && typeof test.destroy == 'function') {
-                        test.destroy();
+                    if ( /* component.hasOwnProperty('destroy') && */typeof component.destroy === 'function') {
+                        component.destroy();
                     }
                     if (component.id) {
                         _this2._componentsIds[id] = null;

@@ -249,8 +249,8 @@ class Components {
             let test = window.document.contains(component.el);
 
             if (!test) {
-                if (component.hasOwnProperty('destroy') && typeof component.destroy === 'function') {
-                    test.destroy();
+                if (/* component.hasOwnProperty('destroy') && */ typeof component.destroy === 'function') {
+                    component.destroy();
                 }
                 if (component.id) {
                     this._componentsIds[id] = null;

@@ -1,6 +1,6 @@
 {
   "name": "ss-components",
-  "version": "0.9.7",
+  "version": "0.9.9",
   "description": "Straight forward JavaScript components. Designed to work with SilverStripe but can be used anywhere",
   "main": "dist/components.js",
   "scripts": {

@@ -36,26 +36,16 @@ along with HTML code
 **Kind**: global class  
 
 * [Components](#Components)
-    * _instance_
-        * [.dettachFromDOM()](#Components+dettachFromDOM)
-    * _static_
-        * [.classNames](#Components.classNames)
-        * [.components](#Components.components)
-        * [.register(type, classObj)](#Components.register)
-        * [.attach()](#Components.attach)
-        * [.getById(id)](#Components.getById) ⇒ <code>object</code>
-        * [.getByName(id)](#Components.getByName) ⇒ <code>array</code>
-        * [.getByType(id)](#Components.getByType) ⇒ <code>array</code>
-        * [.getByEl(el)](#Components.getByEl) ⇒ <code>object</code>
+    * [.classNames](#Components.classNames)
+    * [.components](#Components.components)
+    * [.register(type, classObj)](#Components.register)
+    * [.attach()](#Components.attach)
+    * [.getById(id)](#Components.getById) ⇒ <code>object</code>
+    * [.getByName(id)](#Components.getByName) ⇒ <code>array</code>
+    * [.getByType(id)](#Components.getByType) ⇒ <code>array</code>
+    * [.getByEl(el)](#Components.getByEl) ⇒ <code>object</code>
+    * [.dettachFromDOM()](#Components.dettachFromDOM)
 
-<a name="Components+dettachFromDOM"></a>
-
-### components.dettachFromDOM()
-Performs a test `window.document.contains(component.el)` and removes all references to 
-components, so it would garbage collectored. 
-If component has method `destory`, it will be called
-
-**Kind**: instance method of [<code>Components</code>](#Components)  
 <a name="Components.classNames"></a>
 
 ### Components.classNames
@@ -225,3 +215,11 @@ Components.attach();
 let node = document.getElementById('banner-1');
 let banner1 = Components.getByEl(node); //returns an instance of banner 
 ```
+<a name="Components.dettachFromDOM"></a>
+
+### Components.dettachFromDOM()
+Performs a test `window.document.contains(component.el)` and removes all references to 
+components, so it would garbage collectored. 
+If component has method `destory`, it will be called
+
+**Kind**: static method of [<code>Components</code>](#Components)  
