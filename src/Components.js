@@ -67,7 +67,7 @@ class Components {
             let data = element.dataset;
 
             if (data.attached) {
-                return
+                return;
             } else {
                 element.dataset.attached = true;
             }
@@ -268,7 +268,7 @@ class Components {
 
 Components._components = [];
 Components._componentsIds = {};
-Components._classNames = {}
+Components._classNames = {};
 
 export default Components;
 module.exports = Components;
