@@ -191,7 +191,7 @@ class Components {
      * `<div id="banner-2" data-component="banner">...</div>`
      * `<div id="banner-3" data-component="banner">...</div>`
      * 
-     * let banners = Components.getById('Banners'); //returns an instances of `Banner` class
+     * let banners = Components.getById('Banner'); //returns an instances of `Banner` class
      * 
      */
     static getByType(type) {
